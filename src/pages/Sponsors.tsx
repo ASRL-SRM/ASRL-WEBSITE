@@ -11,32 +11,32 @@ const Sponsors = () => {
     {
       name: 'Dassault Systemes',
       description: 'Pioneers in defense and embedded systems, Dassault Systemes provides cutting-edge technology solutions for mission-critical aerospace and military applications.',
-      logoSrc: 'https://raw.githubusercontent.com/',
+      logoSrc: 'https://raw.githubusercontent.com/src/images/sponcer/LIGHT/4-DSystemes-1 (1).png',
     },
     {
       name: 'Altium',
       description: 'Industry-leading PCB design software empowering engineers with intuitive tools for schematic capture, layout, and real-time collaboration.',
-      logoSrc: 'https://raw.githubusercontent.com/',
+      logoSrc: 'https://raw.githubusercontent.com/src/images/sponcer/LIGHT/Altium.png',
     },
     {
       name: 'ANSYS',
       description: 'A global leader in engineering simulation, ANSYS enables high-fidelity modeling of real-world performance for structures, fluids, and electronics.',
-      logoSrc: 'https://raw.githubusercontent.com/',
+      logoSrc: 'https://raw.githubusercontent.com/src/images/sponcer/LIGHT/logo-blanco-ansys.png',
     },
     {
       name: 'MathWorks',
       description: 'Creators of MATLAB and Simulink, MathWorks supports advanced modeling, simulation, and algorithm development for research and engineering.',
-      logoSrc: 'https://raw.githubusercontent.com/',
+      logoSrc: 'https://raw.githubusercontent.com/src/images/sponcer/LIGHT/logo-blanco-ansys.png',
     },
     {
       name: 'SRM Institute of Science and Technology',
       description: 'Our academic partner, SRMIST fosters innovation, interdisciplinary research, and world-class engineering education.',
-      logoSrc: 'https://raw.githubusercontent.com/',
+      logoSrc: 'https://raw.githubusercontent.com/src/images/sponcer/LIGHT/SRM logo.png',
     },
     {
       name: 'TP-Link',
       description: 'TP-Link offers reliable network solutions powering our ground control and telemetry systems with high-speed, stable data links.',
-      logoSrc: 'https://raw.githubusercontent.com/',
+      logoSrc: 'https://raw.githubusercontent.com/src/images/sponcer/LIGHT/tp link.png',
     },
   ];
 
