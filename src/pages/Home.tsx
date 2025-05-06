@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, Clock, Users, Zap, Target } from 'lucide-react';
-import heroImg from '/home/project/src/AHFH-main-high-res.jpg';
 
 import SectionTitle from '../components/SectionTitle';
 import ProjectCard from '../components/ProjectCard';
@@ -50,11 +49,11 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: `url(${heroImg})`,
+            backgroundImage: "url('https://raw.githubusercontent.com/ASRL-SRM/ASRL.in/main/src/images/background/AHFH_main%20_high_res.jpg')",
             height: '100vh'
           }}
         />
-        <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-black/35 backdrop-blur"></div>
 
         <div className="container-custom relative z-10 h-full flex items-center">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full">
