@@ -49,7 +49,7 @@ const Navbar = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between">
           <NavLink to="/" className="flex items-center">
-            <img src="/ASRL white.png" alt="ASRL Logo" className="h-8" />
+            <img src="https://raw.githubusercontent.com/ASRL-SRM/asrlwebsiteasrl.in-2025aimhighflyhigher/main/src/images/background/ASRL%20white.png" alt="ASRL Logo" className="h-8" />
           </NavLink>
 
           {/* Desktop Navigation */}
