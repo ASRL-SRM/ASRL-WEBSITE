@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Filter, Users, Wrench, Code, Rocket, Layers, FlaskConical } from 'lucide-react';
+import { Users, Wrench, Code, CircuitBoard, User, } from 'lucide-react';
 
 import SectionTitle from '../components/SectionTitle';
 import TeamMemberCard from '../components/TeamMemberCard';
@@ -9,23 +9,23 @@ const Team = () => {
   const [division, setDivision] = useState('all');
   
   const divisions = [
-    { id: 'all', name: 'All Teams', icon: <Users className="h-5 w-5" /> },
-    { id: 'flight', name: 'Flight Systems', icon: <Rocket className="h-5 w-5" /> },
-    { id: 'propulsion', name: 'Propulsion', icon: <Wrench className="h-5 w-5" /> },
-    { id: 'software', name: 'Software', icon: <Code className="h-5 w-5" /> },
-    { id: 'design', name: 'Design', icon: <Layers className="h-5 w-5" /> },
-    { id: 'research', name: 'Research', icon: <FlaskConical className="h-5 w-5" /> },
+    { id: 'all', name: 'Full Team', icon: <Users className="h-5 w-5" /> },
+    { id: 'design', name: 'Design and Fabrications', icon: <Wrench className="h-5 w-5" /> },
+    { id: 'flight', name: 'Flight Systems', icon: <CircuitBoard className="h-5 w-5" /> },
+    { id: 'Coding', name: 'Coding', icon: <Code className="h-5 w-5" /> },
+    { id: 'Corporate', name: 'Corporate', icon: <User className="h-5 w-5" /> },
   ];
   
   // Sample team members data
   const teamMembers = [
     {
-      name: 'Aditya Sharma',
+      name: 'Praneel Sharma',
       role: 'Team Lead',
       division: 'leadership',
       imageSrc: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=300',
       linkedinUrl: 'https://www.linkedin.com/',
       emailAddress: 'aditya@asrl.com',
+      instagramUrl: 'https://www.instagram.com/',
     },
     {
       name: 'Priya Patel',
@@ -37,8 +37,8 @@ const Team = () => {
     },
     {
       name: 'Raj Mehta',
-      role: 'Propulsion Engineer',
-      division: 'propulsion',
+      role: 'design Engineer',
+      division: 'design',
       imageSrc: 'https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=300',
       linkedinUrl: 'https://www.linkedin.com/',
       emailAddress: 'raj@asrl.com',
@@ -62,7 +62,7 @@ const Team = () => {
     {
       name: 'Neha Gupta',
       role: 'Research Lead',
-      division: 'research',
+      division: 'corporate',
       imageSrc: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300',
       linkedinUrl: 'https://www.linkedin.com/',
       emailAddress: 'neha@asrl.com',
@@ -144,6 +144,7 @@ const Team = () => {
                 imageSrc={member.imageSrc}
                 linkedinUrl={member.linkedinUrl}
                 emailAddress={member.emailAddress}
+                instagramUrl={member.instagramUrl}
               />
             ))}
           </div>
