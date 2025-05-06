@@ -49,7 +49,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: "url('https://raw.githubusercontent.com/ASRL-SRM/ASRL.in/main/src/images/background/AHFH_main%20_high_res.jpg')",
+            backgroundImage: "url('https://raw.githubusercontent.com/ASRL-SRM/asrlwebsiteasrl.in-2025aimhighflyhigher/main/src/images/background/AHFH_main%20_high_res.jpg')",
             height: '100vh'
           }}
         />
