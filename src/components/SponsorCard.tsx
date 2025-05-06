@@ -23,7 +23,7 @@ const SponsorCard: React.FC<SponsorCardProps> = ({
       className="sponsor-card"
     >
       <div className={`flex flex-col md:flex-row items-center ${isRightAligned ? 'md:flex-row-reverse' : ''} gap-6`}>
-        <div className="w-40 h-24 bg-white rounded-lg p-2 flex items-center justify-center">
+        <div className="w-40 h-24 bg-black rounded-lg p-2 flex items-center justify-center">
           <img 
             src={logoSrc} 
             alt={`${name} logo`} 
