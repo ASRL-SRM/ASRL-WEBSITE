@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Linkedin, Mail } from 'lucide-react';
+import { Linkedin, Mail,Instagram } from 'lucide-react';
 
 interface TeamMemberCardProps {
   name: string;
@@ -8,6 +8,7 @@ interface TeamMemberCardProps {
   imageSrc: string;
   linkedinUrl?: string;
   emailAddress?: string;
+  instagramUrl?: string
 }
 
 const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
@@ -16,6 +17,7 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
   imageSrc,
   linkedinUrl,
   emailAddress,
+  instagramUrl,
 }) => {
   return (
     <motion.div
@@ -57,6 +59,17 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
               aria-label={`Email ${name}`}
             >
               <Mail size={18} />
+            </a>
+          )}
+          {instagramUrl && (
+            <a 
+              href={instagramUrl}
+              target="_blank"
+              rel="noopener noreferrer" 
+              className="text-white/70 hover:text-accent-400 transition-colors"
+              aria-label={`Email ${name}`}
+            >
+              <Instagram size={18} />
             </a>
           )}
         </div>

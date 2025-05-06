@@ -74,12 +74,6 @@ const Footer = () => {
                   asrlsrm2@gmail.com
                 </a>
               </li>
-              <li className="flex items-center">
-                <Phone className="h-5 w-5 text-accent-500 mr-3" />
-                <a href="tel:+911234567890" className="text-white/70 hover:text-accent-400 transition-colors text-sm">
-                  Soon to be added
-                </a>
-              </li>
             </ul>
           </div>
 

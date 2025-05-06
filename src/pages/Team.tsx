@@ -10,79 +10,202 @@ const Team = () => {
   
   const divisions = [
     { id: 'all', name: 'Full Team', icon: <Users className="h-5 w-5" /> },
-    { id: 'design', name: 'Design and Fabrications', icon: <Wrench className="h-5 w-5" /> },
+    { id: 'design', name: 'Design and Fabrication', icon: <Wrench className="h-5 w-5" /> },
     { id: 'flight', name: 'Flight Systems', icon: <CircuitBoard className="h-5 w-5" /> },
     { id: 'Coding', name: 'Coding', icon: <Code className="h-5 w-5" /> },
     { id: 'Corporate', name: 'Corporate', icon: <User className="h-5 w-5" /> },
   ];
   
   // Sample team members data
-  const teamMembers = [
-    {
-      name: 'Praneel Sharma',
-      role: 'Team Lead',
-      division: 'leadership',
-      imageSrc: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=300',
-      linkedinUrl: 'https://www.linkedin.com/',
-      emailAddress: 'aditya@asrl.com',
-      instagramUrl: 'https://www.instagram.com/',
-    },
-    {
-      name: 'Priya Patel',
-      role: 'Flight Systems Lead',
-      division: 'flight',
-      imageSrc: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=300',
-      linkedinUrl: 'https://www.linkedin.com/',
-      emailAddress: 'priya@asrl.com',
-    },
-    {
-      name: 'Raj Mehta',
-      role: 'design Engineer',
-      division: 'design',
-      imageSrc: 'https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=300',
-      linkedinUrl: 'https://www.linkedin.com/',
-      emailAddress: 'raj@asrl.com',
-    },
-    {
-      name: 'Ananya Singh',
-      role: 'Software Lead',
-      division: 'software',
-      imageSrc: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=300',
-      linkedinUrl: 'https://www.linkedin.com/',
-      emailAddress: 'ananya@asrl.com',
-    },
-    {
-      name: 'Vikram Reddy',
-      role: 'Design Engineer',
-      division: 'design',
-      imageSrc: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=300',
-      linkedinUrl: 'https://www.linkedin.com/',
-      emailAddress: 'vikram@asrl.com',
-    },
-    {
-      name: 'Neha Gupta',
-      role: 'Research Lead',
-      division: 'corporate',
-      imageSrc: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300',
-      linkedinUrl: 'https://www.linkedin.com/',
-      emailAddress: 'neha@asrl.com',
-    },
-    {
-      name: 'Arjun Kumar',
-      role: 'Flight Systems Engineer',
-      division: 'flight',
-      imageSrc: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=300',
-      linkedinUrl: 'https://www.linkedin.com/',
-      emailAddress: 'arjun@asrl.com',
-    },
-    {
-      name: 'Sanjay Verma',
-      role: 'Software Developer',
-      division: 'software',
-      imageSrc: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300',
-      linkedinUrl: 'https://www.linkedin.com/',
-      emailAddress: 'sanjay@asrl.com',
-    },
+    const teamMembers = [
+      {
+        name: 'Praneel Sharma',
+        role: 'Team Lead and D&F Lead',
+        division: 'design',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(5).jpg',
+        linkedinUrl: 'https://www.linkedin.com/in/praneel-sharma-915827248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_appsharma.praneel',
+        emailAddress: 'sharmapraneelas@gmail.com',
+        instagramUrl: 'https://www.instagram.com/sharma.praneel'
+      },
+      
+      {
+        name: 'Abhinandan Mathur',
+        role: 'Flight Systems Lead',
+        division: 'flight',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(3).jpeg',
+        linkedinUrl: 'https://www.linkedin.com/in/abhinandan-m-748957244/',
+        emailAddress: 'abhimathur2004@gmail.com',
+        instagramUrl: 'https://www.instagram.com/'
+      },
+      {
+        name: 'Raghu',
+        role: 'Coding Lead',
+        division: 'Coding',
+        imageSrc: '',
+        emailAddress: '',
+        instagramUrl: ''
+      },
+    
+      
+      {
+        name: 'Laxmi Waghmare',
+        role: 'Design and Frabrication Senior',
+        division: 'design',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(7).jpg',
+        linkedinUrl: 'https://www.linkedin.com/in/laxmi-w',
+        emailAddress: 'lw5951@srmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/'
+      },
+      {
+        name: 'Yash Verma',
+        role: 'Flight Systems Senior',
+        division: 'flight',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(10).jpg',
+        linkedinUrl: 'https://www.linkedin.com/in/yashverma2004/',
+        emailAddress: 'yashverma7531@gmail.com',
+        instagramUrl: 'https://www.instagram.com/'
+      },
+     {
+        name: 'Divyansh Singh',
+        role: 'Coding Senior',
+        division: 'Coding',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(12).jpg',
+        linkedinUrl: 'https://www.linkedin.com/in/divyansh-singh-8b12b426a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        emailAddress: 'ds8556@srmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/just_divyaaaanshh'
+      },
+      {
+        name: 'Aarya Menon ',
+        role: 'Coding Senior',
+        division: 'Coding',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(11).jpg',
+        linkedinUrl: 'https://www.linkedin.com/in/divyansh-singh-8b12b426a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        emailAddress: 'ds8556@srmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/_aaryamenon'
+      },
+  {
+        name: 'Manan Agarwal',
+        role: 'Design and Fabrication Engineer',
+        division: 'design',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(19).jpg',
+        linkedinUrl: 'http://linkedin.com/in/manan-agarwal-a489a72b9',
+        emailAddress: 'ma7595@stmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/Me_mananagarwal'
+      },
+      {
+        name: 'Akshika Pathania',
+        role: 'Design and Fabrication Senior',
+        division: 'design',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(6).jpg',
+        linkedinUrl: 'https://www.linkedin.com/in/akshika-pathania-b20304282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        emailAddress: 'ap7251@srmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/akshika2805'
+      },
+  
+  {
+        name: 'Alapan Chatterjee',
+        role: 'Design and Fabrication Engineer',
+        division: 'design',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(14).jpg',
+        linkedinUrl: 'https://www.linkedin.com/in/alapan-chatterjee-2a7766295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        emailAddress: 'ac0747@srmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/ace_.8202'
+      },
+  
+  {
+        name: 'Prithvi Shankar',
+        role: 'Design and Fabrication Engineer',
+        division: 'design',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(1).jpeg',
+        linkedinUrl: 'www.linkedin.com/in/',
+        emailAddress: 'ps0676@srmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/pritttthvi'
+      },
+  
+  {
+        name: 'Tejas R Nadig ',
+        role: 'Design and Fabrication Engineer',
+        division: 'design',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(16).jpg',
+        linkedinUrl: 'www.linkedin.com/in/',
+        emailAddress: 'tn1267@srmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/'
+      },
+  
+  
+  {
+        name: 'Rishav Kamboj',
+        role: 'Design and Fabrication Engineer',
+        division: 'design',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(2).jpeg',
+        linkedinUrl: 'www.linkedin.com/in/rishav-kamboj',
+        emailAddress: 'rk6828@srmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/'
+      },
+  {
+        name: 'Archit Amey',
+        role: 'Flight Systems Engineer',
+        division: 'flight',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(13).jpg',
+        linkedinUrl: 'www.linkedin.com/in/',
+        emailAddress: 'architamey@gmail.com',
+        instagramUrl: 'https://www.instagram.com/'
+      },
+  
+      {
+        name: 'Akshansh Sharma  ',
+        role: 'Flight Software Engineer',
+        division: 'Coding',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(4).jpeg',
+        linkedinUrl: 'https://www.linkedin.com/in/akshansh-sharma-16220832b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+        emailAddress: 'akshansh9816264920@gmail.com',
+        instagramUrl: 'https://www.instagram.com/akshansh_shrma?igsh=eTFoYWQ4cm9zbGN5&utm_source=qr'
+      },
+      {
+        name: 'P.SRIZAN SAI RAM' ,
+        role: 'Flight Software Engineer',
+        division: 'Coding',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(9).jpg',
+        linkedinUrl: '',
+        emailAddress:'' ,
+        instagramUrl: ''
+      },
+      {
+        name: 'Rishabh Raushan',
+        role: 'Flight Software Engineer',
+        division: 'Coding',
+        imageSrc:'https://raw.githubusercontent.com/Akinc5/image/main/img%20(17).jpg',
+        linkedinUrl:' https://www.linkedin.com/in/rishabh-raushan-7762422a1/' ,
+        emailAddress: 'rishabhraushan200524@gmail.com',
+        instagramUrl: 'https://www.instagram.com/itszrishabh/'
+      },
+      {
+        name: 'Polu Soneesh Reddy ',
+        role: 'Flight Software Engineer',
+        division: 'Coding',
+        imageSrc:'https://raw.githubusercontent.com/Akinc5/image/main/img%20(18).jpg' ,
+        linkedinUrl:'https://www.linkedin.com/in/soneesh-reddy-9ba81332a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_apppolu.soneesh' ,
+        emailAddress: 'sp7983@srmist.edu.in',
+        instagramUrl: ''
+      },
+      {
+        name: 'Priyansh Sethi',
+        role: 'Flight Software Engineer',
+        division: 'Coding',
+        imageSrc:'https://raw.githubusercontent.com/Akinc5/image/main/img%20(8).jpg' ,
+        linkedinUrl:'' ,
+        emailAddress: 'ps1508@srmist.edu.in',
+        instagramUrl: ' https://www.instagram.com/priyanshsethi_'
+      },
+      {
+        name: 'Siddharth Venkatesan',
+        role: 'Flight Software Engineer',
+        division: 'Coding',
+        imageSrc:'https://raw.githubusercontent.com/Akinc5/image/main/img%20(15).png' ,
+        linkedinUrl:'' ,
+        emailAddress: 'sv4643@srmist.edu.in',
+        instagramUrl: ''
+      },
   ];
   
   const filteredMembers = division === 'all' 

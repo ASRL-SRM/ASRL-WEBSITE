@@ -99,28 +99,30 @@ const Projects = () => {
   ];
   
   const ongoingProjects = [
-    {
-      name: 'Cargo Max',
-      description: 'Terrain-monitoring multirotor with 1kg payload capacity for extended surveillance operations.',
-      year: '2024',
-      isLatest: true,
-    },
-    {
-      name: 'Nether',
-      description: 'High-speed fixed-wing UAV capable of 80 km/h cruise velocity for rapid deployment scenarios.',
-      year: '2024',
-      isLatest: true,
-    },
-    {
-      name: 'Horizon',
-      description: 'Long-range fixed-wing designed for endurance and stability research with advanced power management.',
-      year: '2024',
-      isLatest: true,
-    },
+    
     {
       name: 'Tri-Copter Drone',
       description: 'Experimental three-rotor aerial system exploring novel flight dynamics and control mechanisms.',
-      year: '2024 (Under Development)',
+      year: '2025 (Under Development)',
+      isLatest: true,
+    },
+    {
+      name: 'Spectre',
+      description: '3d profile RC plane for acrobatics.',
+      year: '2025',
+      isLatest: true,
+    },
+    {
+      name: 'TERRA',
+      description: 'UGV with 3D LiDAR and ultrasonic smart sensing technology for autonomous navigation and mapping.',
+      year: '2025',
+      isLatest: true,
+    },
+    
+    {
+      name: 'Depron Fixed Winged',
+      description: 'Payload dropping capable autonomous fixed wing.',
+      year: '2025',
       isLatest: true,
     }
   ];

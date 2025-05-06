@@ -139,22 +139,22 @@ const About = () => {
                   <li className="flex">
                     <span className="text-accent-500 mr-3">🏆</span>
                     <div>
-                      <p className="font-medium">1st Place, Design Category - SUAS Competition (2019)</p>
+                      <p className="font-medium">1st Rank, Design Category - SUAS Competition (2019)</p>
                       <p className="text-white/60 text-sm">Maryland, USA</p>
                     </div>
                   </li>
                   <li className="flex">
                     <span className="text-accent-500 mr-3">🏆</span>
                     <div>
-                      <p className="font-medium">1st Place - Essay Autonomous Design Challenge (2020)</p>
+                      <p className="font-medium">1st Rank - SAE Autonomous Design Challenge (2020)</p>
                       <p className="text-white/60 text-sm">National Competition</p>
                     </div>
                   </li>
                   <li className="flex">
                     <span className="text-accent-500 mr-3">🏆</span>
                     <div>
-                      <p className="font-medium">Recognition - World Robotics Championship (2022)</p>
-                      <p className="text-white/60 text-sm">Tech 2022</p>
+                      <p className="font-medium">1st Rank - VAYURVA, NITTE, Multirotor payload dropping (2024)</p>
+                      <p className="text-white/60 text-sm">Mangaluru, Karnataka</p>
                     </div>
                   </li>
                 </ul>
