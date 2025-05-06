@@ -11,32 +11,32 @@ const Sponsors = () => {
     {
       name: 'Dassault Systemes',
       description: 'Pioneers in defense and embedded systems, Dassault Systemes provides cutting-edge technology solutions for mission-critical aerospace and military applications.',
-      logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Dassault_Syst%C3%A8mes_logo.svg',
+      logoSrc: 'https://raw.githubusercontent.com/',
     },
     {
       name: 'Altium',
       description: 'Industry-leading PCB design software empowering engineers with intuitive tools for schematic capture, layout, and real-time collaboration.',
-      logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/6/61/Altium_Logo.png',
+      logoSrc: 'https://raw.githubusercontent.com/',
     },
     {
       name: 'ANSYS',
       description: 'A global leader in engineering simulation, ANSYS enables high-fidelity modeling of real-world performance for structures, fluids, and electronics.',
-      logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/4/4a/Ansys_logo.png',
+      logoSrc: 'https://raw.githubusercontent.com/',
     },
     {
       name: 'MathWorks',
       description: 'Creators of MATLAB and Simulink, MathWorks supports advanced modeling, simulation, and algorithm development for research and engineering.',
-      logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png',
+      logoSrc: 'https://raw.githubusercontent.com/',
     },
     {
       name: 'SRM Institute of Science and Technology',
       description: 'Our academic partner, SRMIST fosters innovation, interdisciplinary research, and world-class engineering education.',
-      logoSrc: 'https://upload.wikimedia.org/wikipedia/en/0/03/SRMIST_Logo.png',
+      logoSrc: 'https://raw.githubusercontent.com/',
     },
     {
       name: 'TP-Link',
       description: 'TP-Link offers reliable network solutions powering our ground control and telemetry systems with high-speed, stable data links.',
-      logoSrc: 'https://upload.wikimedia.org/wikipedia/commons/8/83/TP-Link_logo.svg',
+      logoSrc: 'https://raw.githubusercontent.com/',
     },
   ];
 
