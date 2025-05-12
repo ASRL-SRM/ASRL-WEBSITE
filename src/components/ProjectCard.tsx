@@ -40,8 +40,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </div>
         
         {imageSrc && (
-          <div className="h-16 w-16 bg-space-700/50 rounded-full overflow-hidden flex items-center justify-center">
-            <img src={imageSrc} alt={name} className="h-full w-full object-cover" />
+          <div className="h-40 w-40 bg-space-700/50 rounded-full overflow-hidden flex items-center justify-center">
+            <img src={imageSrc} alt={name} className="h-30 w-full object-cover" />
           </div>
         )}
       </div>

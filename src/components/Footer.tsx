@@ -1,6 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import { Rocket, Instagram, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
+import { Rocket, Instagram, Linkedin, Mail, MapPin } from 'lucide-react';
 import NewsletterForm from './NewsletterForm';
 
 const Footer = () => {

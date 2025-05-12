@@ -1,13 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+interface Project {
+  name: string;
+  description: string;
+  achievement?: string;
+  image?: string; // ✅ Added image property
+}
+
 interface TimelineEventProps {
   year: string;
-  projects: {
-    name: string;
-    description: string;
-    achievement?: string;
-  }[];
+  projects: Project[];
 }
 
 const TimelineEvent: React.FC<TimelineEventProps> = ({ year, projects }) => {
@@ -21,16 +24,33 @@ const TimelineEvent: React.FC<TimelineEventProps> = ({ year, projects }) => {
       >
         <h3 className="text-2xl font-bold text-accent-400 mb-4">{year}</h3>
         
-        <div className="space-y-6">
+        <div className="space-y-10">
           {projects.map((project, index) => (
-            <div key={index} className="border-l-2 border-space-700 pl-4 ml-2">
-              <h4 className="text-lg font-semibold">{project.name}</h4>
-              <p className="mt-1 text-white/70 text-sm">{project.description}</p>
-              {project.achievement && (
-                <div className="mt-2 inline-block bg-space-800 text-accent-300 text-xs font-medium px-2 py-1 rounded">
-                  🏆 {project.achievement}
+            <div 
+              key={index}
+              className="flex flex-col md:flex-row items-start gap-6 border-l-2 border-space-700 pl-4 ml-2"
+            >
+              {/* Image section */}
+              {project.image && (
+                <div className="w-full md:w-1/3 h-48 rounded-lg overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={project.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               )}
+
+              {/* Text section */}
+              <div className="flex-1">
+                <h4 className="text-lg font-semibold">{project.name}</h4>
+                <p className="mt-1 text-white/70 text-sm">{project.description}</p>
+                {project.achievement && (
+                  <div className="mt-2 inline-block bg-space-800 text-accent-300 text-xs font-medium px-2 py-1 rounded">
+                    🏆 {project.achievement}
+                  </div>
+                )}
+              </div>
             </div>
           ))}
         </div>
