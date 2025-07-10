@@ -20,7 +20,7 @@ const Team = () => {
     const teamMembers = [
       {
         name: 'Praneel Sharma',
-        role: 'Team Lead and D&F Lead',
+        role: 'Team Lead',
         division: 'design',
         imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(5).jpg',
         linkedinUrl: 'https://www.linkedin.com/in/praneel-sharma-915827248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_appsharma.praneel',
@@ -30,7 +30,7 @@ const Team = () => {
       
       {
         name: 'Abhinandan Mathur',
-        role: 'Flight Systems Lead',
+        role: 'Flight Systems Senior',
         division: 'flight',
         imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(3).jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/abhinandan-m-748957244/',
@@ -39,7 +39,7 @@ const Team = () => {
       },
       {
         name: 'Raghu',
-        role: 'Coding Lead',
+        role: 'Coding Senior',
         division: 'Coding',
         imageSrc: '',
         emailAddress: '',
@@ -58,7 +58,7 @@ const Team = () => {
       },
       {
         name: 'Yash Verma',
-        role: 'Flight Systems Senior',
+        role: 'Flight Systems Lead',
         division: 'flight',
         imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(10).jpg',
         linkedinUrl: 'https://www.linkedin.com/in/yashverma2004/',
@@ -76,7 +76,7 @@ const Team = () => {
       },
       {
         name: 'Aarya Menon ',
-        role: 'Coding Senior',
+        role: 'Coding Lead',
         division: 'Coding',
         imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(11).jpg',
         linkedinUrl: 'https://www.linkedin.com/in/divyansh-singh-8b12b426a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -85,7 +85,7 @@ const Team = () => {
       },
   {
         name: 'Manan Agarwal',
-        role: 'Design and Fabrication Engineer',
+        role: 'Design and Fabrication Lead',
         division: 'design',
         imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(19).jpg',
         linkedinUrl: 'http://linkedin.com/in/manan-agarwal-a489a72b9',
