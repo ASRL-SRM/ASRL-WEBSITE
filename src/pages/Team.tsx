@@ -43,8 +43,8 @@ const Team = () => {
         role: 'Coding Lead',
         division: 'Coding',
         imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(11).jpg',
-        linkedinUrl: 'https://www.linkedin.com/in/divyansh-singh-8b12b426a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-        emailAddress: 'ds8556@srmist.edu.in',
+        linkedinUrl: 'https://www.linkedin.com/in/aarya-menon-83b420251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        emailAddress: 'am8957@srmist.edu.in',
         instagramUrl: 'https://www.instagram.com/_aaryamenon'
       },
        {
@@ -73,7 +73,7 @@ const Team = () => {
         imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(7).jpg',
         linkedinUrl: 'https://www.linkedin.com/in/laxmi-w',
         emailAddress: 'lw5951@srmist.edu.in',
-        instagramUrl: 'https://www.instagram.com/'
+        instagramUrl: 'https://www.instagram.com/_.l_.a_.x_.m_.i_'
       },
       
      {
@@ -97,6 +97,43 @@ const Team = () => {
         instagramUrl: 'https://www.instagram.com/akshika2805'
       },
       //Members
+      {
+        name: 'Vedant Sardav',
+        role: 'Flight Systems Engineer',
+        division: 'flight',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(21).jpg',
+        linkedinUrl:,
+        emailAddress: 'architamey@gmail.com',
+        instagramUrl: 'https://www.instagram.com/@explorerobo2k19'
+      },
+       {
+        name: 'Srinidhi B',
+        role: 'Flight Systems Engineer',
+        division: 'flight',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(24).jpg',
+        linkedinUrl:,
+        emailAddress: 'srinidhibalaganur16@gmail.com',
+        instagramUrl: 'https://www.instagram.com/Sri_nidhi_balaganur'
+      },
+       {
+        name: 'Archisha Sahoo',
+        role: 'Flight Systems Engineer',
+        division: 'flight',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(23).jpg',
+        linkedinUrl: 'www.linkedin.com/in/Archisha_Sahoo',
+        emailAddress: 'archishasahoo.16@gmail.com',
+        instagramUrl: 'https://www.instagram.com/archisha_1016'
+      },
+       {
+        name: 'Alysia Gomes ',
+        role: 'Flight Systems Engineer',
+        division: 'flight',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(22).jpg',
+        linkedinUrl: 'https://www.linkedin.com/in/alysia-gomes-88b488303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        emailAddress: 'ag9456@srmist.edu.in',
+        instagramUrl: ''
+      },
+      
   {
         name: 'Alapan Chatterjee',
         role: 'Design and Fabrication Engineer',
