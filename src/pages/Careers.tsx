@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Users, Rocket, Code, Zap, Wrench, PenTool } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 import SectionTitle from '../components/SectionTitle';
 
@@ -22,7 +23,8 @@ const Careers = () => {
         'Experience with control systems and PID tuning',
         'Familiarity with flight controllers (Pixhawk, Ardupilot, etc.)',
         'Strong problem-solving skills'
-      ]
+      ],
+      applyLink: 'https://forms.gle/rprkJrkte37k7Lbb9'
     },
     {
       title: 'Software Developer',
@@ -40,10 +42,11 @@ const Careers = () => {
         'Knowledge of ROS, MAVLink, or similar frameworks',
         'Understanding of embedded systems programming',
         'Experience with version control systems like Git'
-      ]
+      ],
+      applyLink: 'https://forms.gle/d83cFgtru2R3rjr86'
     },
     {
-      title: 'Mechanical Engineer',
+      title: 'Design and fabrication engineer',
       division: 'Design',
       icon: <Wrench className="h-6 w-6 text-accent-500" />,
       description: 'Design and build mechanical systems for UAVs and related aerospace equipment.',
@@ -58,25 +61,36 @@ const Careers = () => {
         'Understanding of manufacturing processes',
         'Knowledge of materials and their properties',
         'Hands-on fabrication skills'
-      ]
+      ],
+      applyLink: 'https://forms.gle/ekyMEqoSsE6UPeu26'
     },
     {
-      title: 'Research Assistant',
-      division: 'Research',
+      title: 'Corporate',
+      division: 'Creatives',
       icon: <Zap className="h-6 w-6 text-accent-500" />,
       description: 'Conduct research in advanced aerospace technologies and publish findings.',
       responsibilities: [
-        'Design and carry out experiments in aerospace systems',
-        'Analyze and interpret experimental data',
-        'Prepare research papers and technical reports',
-        'Present findings at academic and technical forums'
+        'Develop and manage partnerships, sponsorships, and collaborations with industry, academia, and government organizations',
+        'Plan, execute, and oversee ASRL events, workshops, and recruitment drives.',
+        'Coordinate logistics, budgets, procurement, and inventory for lab projects and activities.',
+        'Manage ASRL’s official communications, media content, and public relations across digital and physical platforms.',
+        'Maintain detailed records of project progress, team performance, and financial transactions.',
+        'Craft and implement strategies to enhance ASRL’s visibility, recognition, and value within and beyond SRMIST.',
+        'Work closely with technical teams to align operational workflows with project needs and deadlines.',
       ],
       requirements: [
-        'Strong analytical and research skills',
-        'Academic background in aerospace or related field',
-        'Experience with scientific data analysis',
-        'Technical writing and presentation abilities'
-      ]
+        'Current undergraduate student at SRMIST (any department/discipline).',
+        'Strong interest in operations management, project coordination, and organizational leadership.',
+        'Excellent written and verbal communication skills in English.',
+        'Ability to manage and coordinate multiple projects, teams, and events simultaneously.',
+        'Good working knowledge of Microsoft Office/Google Workspace (Docs, Sheets, Slides).',
+        'Familiarity with social media management, design tools (Canva/Photoshop), or branding strategies is a plus.',
+        'Experience in event management, student clubs, or corporate communication roles (preferred but not mandatory).',
+        'Strong sense of professionalism, reliability, and discipline.',
+        'Ability to dedicate 8-12 hours/week towards ASRL operations, meetings, and events.',
+        'Proactive mindset with a willingness to learn, lead, and adapt in a dynamic environment.',
+      ],
+      applyLink: 'https://forms.gle/3coxZcRoGxGanD6E8'
     }
   ];
 
@@ -179,8 +193,10 @@ const Careers = () => {
                     </div>
                     <h3 className="text-2xl font-bold mb-3">{position.title}</h3>
                     <p className="text-white/70 mb-6">{position.description}</p>
-                    <button className="btn-primary">Apply Now</button>
-                  </div>
+                       <Link to={position.applyLink ?? '#'}>
+                       <button className="btn-primary">Apply Now</button>
+                       </Link>
+                       </div>
                   
                   <div className="md:w-2/3 grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div>
@@ -285,8 +301,10 @@ const Careers = () => {
             </div>
             
             <div className="mt-12 text-center">
-              <button className="btn-primary">Apply Now</button>
-            </div>
+             <a href="https://forms.gle/xUAyoAp6z42qdTxAA" target="_blank" rel="noopener noreferrer">
+                    <button className="btn-primary">Apply For Multiple Roles</button>
+              </a>
+              </div>
           </div>
         </div>
       </section>
