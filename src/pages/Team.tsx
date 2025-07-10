@@ -48,15 +48,6 @@ const Team = () => {
         instagramUrl: 'https://www.instagram.com/_aaryamenon'
       },
        {
-        name: 'Shagun Somani',
-        role: 'Corporate Lead',
-        division: 'Corporate',
-        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(20).jpg',
-        linkedinUrl: 'https://www.linkedin.com/in/shagun-somani-00b29a24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-        emailAddress: 'ss9416@srmist.edu.in',
-        instagramUrl: 'https://www.instagram.com/shagunnn____?igsh=MjdmdjdleHNqdDV6'
-      },
-       {
         name: 'Manan Agarwal',
         role: 'Design and Fabrication Lead',
         division: 'design',
@@ -64,6 +55,15 @@ const Team = () => {
         linkedinUrl: 'http://linkedin.com/in/manan-agarwal-a489a72b9',
         emailAddress: 'ma7595@stmist.edu.in',
         instagramUrl: 'https://www.instagram.com/Me_mananagarwal'
+      },
+       {
+        name: 'Shagun Somani',
+        role: 'Corporate Lead',
+        division: 'Corporate',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(20).jpg',
+        linkedinUrl: 'https://www.linkedin.com/in/shagun-somani-00b29a24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+        emailAddress: 'ss9416@srmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/shagunnn____?igsh=MjdmdjdleHNqdDV6'
       },
       //Seniors 
       {
