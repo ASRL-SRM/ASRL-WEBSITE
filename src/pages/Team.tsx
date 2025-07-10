@@ -111,7 +111,7 @@ const Team = () => {
         role: 'Flight Systems Engineer',
         division: 'flight',
         imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(24).jpg',
-        linkedinUrl:,
+        linkedinUrl:'',
         emailAddress: 'srinidhibalaganur16@gmail.com',
         instagramUrl: 'https://www.instagram.com/Sri_nidhi_balaganur'
       },
@@ -125,7 +125,7 @@ const Team = () => {
         instagramUrl: 'https://www.instagram.com/archisha_1016'
       },
        {
-        name: 'Alysia Gomes ',
+        name: 'Alysia Gomes',
         role: 'Flight Systems Engineer',
         division: 'flight',
         imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(22).jpg',
