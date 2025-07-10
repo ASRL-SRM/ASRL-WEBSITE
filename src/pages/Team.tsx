@@ -60,7 +60,7 @@ const Team = () => {
         name: 'Shagun Somani',
         role: 'Corporate Lead',
         division: 'Corporate',
-        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(20).jpg',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(20).jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/shagun-somani-00b29a24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
         emailAddress: 'ss9416@srmist.edu.in',
         instagramUrl: 'https://www.instagram.com/shagunnn____?igsh=MjdmdjdleHNqdDV6'
@@ -102,7 +102,7 @@ const Team = () => {
         role: 'Flight Systems Engineer',
         division: 'flight',
         imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(21).jpg',
-        linkedinUrl:,
+        linkedinUrl:'',
         emailAddress: 'architamey@gmail.com',
         instagramUrl: 'https://www.instagram.com/@explorerobo2k19'
       },
@@ -110,7 +110,7 @@ const Team = () => {
         name: 'Srinidhi B',
         role: 'Flight Systems Engineer',
         division: 'flight',
-        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(24).jpg',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(24).jpeg',
         linkedinUrl:'',
         emailAddress: 'srinidhibalaganur16@gmail.com',
         instagramUrl: 'https://www.instagram.com/Sri_nidhi_balaganur'
