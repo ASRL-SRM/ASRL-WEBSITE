@@ -52,9 +52,9 @@ const Team = () => {
         role: 'Corporate Lead',
         division: 'Corporate',
         imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(20).jpg',
-        linkedinUrl: '',
-        emailAddress: '',
-        instagramUrl: ''
+        linkedinUrl: 'https://www.linkedin.com/in/shagun-somani-00b29a24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+        emailAddress: 'ss9416@srmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/shagunnn____?igsh=MjdmdjdleHNqdDV6'
       },
        {
         name: 'Manan Agarwal',
@@ -66,26 +66,6 @@ const Team = () => {
         instagramUrl: 'https://www.instagram.com/Me_mananagarwal'
       },
       //Seniors 
-      
-      {
-        name: 'Abhinandan Mathur',
-        role: 'Flight Systems Senior',
-        division: 'flight',
-        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(3).jpeg',
-        linkedinUrl: 'https://www.linkedin.com/in/abhinandan-m-748957244/',
-        emailAddress: 'abhimathur2004@gmail.com',
-        instagramUrl: 'https://www.instagram.com/'
-      },
-      {
-        name: 'Raghu',
-        role: 'Coding Senior',
-        division: 'Coding',
-        imageSrc: '',
-        emailAddress: '',
-        instagramUrl: ''
-      },
-    
-      
       {
         name: 'Laxmi Waghmare',
         role: 'Design and Frabrication Senior',
@@ -182,7 +162,7 @@ const Team = () => {
         division: 'Coding',
         imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(9).jpg',
         linkedinUrl: '',
-        emailAddress:'' ,
+        emailAddress:'sp8792@srmist.edu.in' ,
         instagramUrl: ''
       },
       {
