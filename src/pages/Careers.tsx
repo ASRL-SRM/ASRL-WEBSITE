@@ -46,7 +46,7 @@ const Careers = () => {
       applyLink: 'https://forms.gle/d83cFgtru2R3rjr86'
     },
     {
-      title: 'Design and fabrication engineer',
+      title: 'Design And Fabrication Engineer',
       division: 'Design',
       icon: <Wrench className="h-6 w-6 text-accent-500" />,
       description: 'Design and build mechanical systems for UAVs and related aerospace equipment.',
