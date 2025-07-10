@@ -16,8 +16,9 @@ const Team = () => {
     { id: 'Corporate', name: 'Corporate', icon: <User className="h-5 w-5" /> },
   ];
   
-  // Sample team members data
+  
     const teamMembers = [
+      //Team Lead
       {
         name: 'Praneel Sharma',
         role: 'Team Lead',
@@ -27,6 +28,44 @@ const Team = () => {
         emailAddress: 'sharmapraneelas@gmail.com',
         instagramUrl: 'https://www.instagram.com/sharma.praneel'
       },
+      //All Domain Leads
+      {
+        name: 'Yash Verma',
+        role: 'Flight Systems Lead',
+        division: 'flight',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(10).jpg',
+        linkedinUrl: 'https://www.linkedin.com/in/yashverma2004/',
+        emailAddress: 'yashverma7531@gmail.com',
+        instagramUrl: 'https://www.instagram.com/'
+      },
+      {
+        name: 'Aarya Menon ',
+        role: 'Coding Lead',
+        division: 'Coding',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(11).jpg',
+        linkedinUrl: 'https://www.linkedin.com/in/divyansh-singh-8b12b426a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        emailAddress: 'ds8556@srmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/_aaryamenon'
+      },
+       {
+        name: 'Shagun Somani',
+        role: 'Corporate Lead',
+        division: 'Corporate',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(20).jpg',
+        linkedinUrl: '',
+        emailAddress: '',
+        instagramUrl: ''
+      },
+       {
+        name: 'Manan Agarwal',
+        role: 'Design and Fabrication Lead',
+        division: 'design',
+        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(19).jpg',
+        linkedinUrl: 'http://linkedin.com/in/manan-agarwal-a489a72b9',
+        emailAddress: 'ma7595@stmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/Me_mananagarwal'
+      },
+      //Seniors 
       
       {
         name: 'Abhinandan Mathur',
@@ -56,15 +95,7 @@ const Team = () => {
         emailAddress: 'lw5951@srmist.edu.in',
         instagramUrl: 'https://www.instagram.com/'
       },
-      {
-        name: 'Yash Verma',
-        role: 'Flight Systems Lead',
-        division: 'flight',
-        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(10).jpg',
-        linkedinUrl: 'https://www.linkedin.com/in/yashverma2004/',
-        emailAddress: 'yashverma7531@gmail.com',
-        instagramUrl: 'https://www.instagram.com/'
-      },
+      
      {
         name: 'Divyansh Singh',
         role: 'Coding Senior',
@@ -74,24 +105,8 @@ const Team = () => {
         emailAddress: 'ds8556@srmist.edu.in',
         instagramUrl: 'https://www.instagram.com/just_divyaaaanshh'
       },
-      {
-        name: 'Aarya Menon ',
-        role: 'Coding Lead',
-        division: 'Coding',
-        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(11).jpg',
-        linkedinUrl: 'https://www.linkedin.com/in/divyansh-singh-8b12b426a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-        emailAddress: 'ds8556@srmist.edu.in',
-        instagramUrl: 'https://www.instagram.com/_aaryamenon'
-      },
-  {
-        name: 'Manan Agarwal',
-        role: 'Design and Fabrication Lead',
-        division: 'design',
-        imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(19).jpg',
-        linkedinUrl: 'http://linkedin.com/in/manan-agarwal-a489a72b9',
-        emailAddress: 'ma7595@stmist.edu.in',
-        instagramUrl: 'https://www.instagram.com/Me_mananagarwal'
-      },
+      
+ 
       {
         name: 'Akshika Pathania',
         role: 'Design and Fabrication Senior',
@@ -101,7 +116,7 @@ const Team = () => {
         emailAddress: 'ap7251@srmist.edu.in',
         instagramUrl: 'https://www.instagram.com/akshika2805'
       },
-  
+      //Members
   {
         name: 'Alapan Chatterjee',
         role: 'Design and Fabrication Engineer',
