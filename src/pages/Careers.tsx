@@ -74,21 +74,12 @@ const Careers = () => {
         'Plan, execute, and oversee ASRL events, workshops, and recruitment drives.',
         'Coordinate logistics, budgets, procurement, and inventory for lab projects and activities.',
         'Manage ASRL’s official communications, media content, and public relations across digital and physical platforms.',
-        'Maintain detailed records of project progress, team performance, and financial transactions.',
-        'Craft and implement strategies to enhance ASRL’s visibility, recognition, and value within and beyond SRMIST.',
-        'Work closely with technical teams to align operational workflows with project needs and deadlines.',
       ],
       requirements: [
-        'Current undergraduate student at SRMIST (any department/discipline).',
         'Strong interest in operations management, project coordination, and organizational leadership.',
-        'Excellent written and verbal communication skills in English.',
         'Ability to manage and coordinate multiple projects, teams, and events simultaneously.',
         'Good working knowledge of Microsoft Office/Google Workspace (Docs, Sheets, Slides).',
         'Familiarity with social media management, design tools (Canva/Photoshop), or branding strategies is a plus.',
-        'Experience in event management, student clubs, or corporate communication roles (preferred but not mandatory).',
-        'Strong sense of professionalism, reliability, and discipline.',
-        'Ability to dedicate 8-12 hours/week towards ASRL operations, meetings, and events.',
-        'Proactive mindset with a willingness to learn, lead, and adapt in a dynamic environment.',
       ],
       applyLink: 'https://forms.gle/3coxZcRoGxGanD6E8'
     }
