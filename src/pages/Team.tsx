@@ -98,13 +98,13 @@ const Team = () => {
       },
       //Members
       {
-        name: 'Vedant Sardav',
+        name: 'Vedaant Sarda',
         role: 'Flight Systems Engineer',
         division: 'flight',
         imageSrc: 'https://raw.githubusercontent.com/Akinc5/image/main/img%20(21).jpg',
         linkedinUrl:'',
         emailAddress: 'architamey@gmail.com',
-        instagramUrl: 'https://www.instagram.com/@explorerobo2k19'
+        instagramUrl: 'https://www.instagram.com/@vedaant-sarda'
       },
        {
         name: 'Srinidhi B',
